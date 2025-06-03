@@ -1,5 +1,5 @@
 /**
- * file: sound_track_looper_two.js
+ * file: sound_track_looper_four.js
  * type: JavaScript
  * author: karbytes
  * date: 04_APRIL_2025
@@ -88,25 +88,20 @@ function generate_time_stamp() {
  * @return {String} a sequence of characters representing some natural number of OPTIONs inside of a SELECT menu.
  */
 function get_menu_options() {
-    // let file_path_root = 'http://qkbrwfubnh4knc6kkhx6uepccavpwezdf2al7w2quepe3qociegsi3yd.onion/KARBYTES_BLOG_APPS/SOUND_TRACK_LOOP_COUNTER_TWO/';
-    let file_path_root = 'https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_BLOG_APPS_github_hosted_website/main/SOUND_TRACK_LOOP_COUNTER_TWO/';
-    // let file_path_root = 'https://github.com/karlinarayberinger/KARBYTES_BLOG_APPS_github_hosted_website/tree/main/SOUND_TRACK_LOOP_COUNTER_TWO/';
-    // let file_path_root = '/';
+    let file_path_root = 'https://raw.githubusercontent.com/karbytessupporter/ANNOYING_AUTOMOBILE_DRIVER_SOUND_TRACK_LOOPER_github_hosted_website/main/';
     let HTML_string = '';
     
     // Define the list of sound eleven sound files and their display names.
     const sound_files = [
-        'frogs_croaking_in_castro_valley_california_21_april_2022.mp3',
-        'coyote_vocalizations_01_july_2023.mp3',
-        'karbytes_drums_castro_valley_california_12_december_2022.mp3',
-        'drums_karbytes_10_september_2023_part_0.mp3',
-        'karbytes_guitar_castro_valley_california_12_december_2022.mp3',
-        'karbytes_guitar_13_may_2023.mp3',
-        'karbytes_guitar_07_june_2023.mp3',
-        'karbytes_guitar_16_october_2023.mp3',
-        'karbytes_drums_20_october_2023.mp3',
-        'guitar_karbytes_13july2024.mp3',
-        'guitar_karbytes_20august2024.mp3'
+        'annoying_automobile_driver_sound_track_01june2025_p0.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p1.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p2.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p3.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p4.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p5.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p6.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p7.mp3',
+        'annoying_automobile_driver_sound_track_01june2025_p8.mp3'
     ];
     
     // Build the HTML string for each sound file
@@ -224,7 +219,7 @@ function start_sound_track_looper() {
 	try {
 		const message = "The start_sound_track_looper() button was clicked at time: " + generate_time_stamp();
 		let sound_track_array = [];
-		//let elapsed_seconds_display = document.getElementById("seconds_elapsed_display");
+		// let elapsed_seconds_display = document.getElementById("seconds_elapsed_display");
 		let output_display = document.getElementById("output");
 		let console_display = document.getElementById("console_display");
 		let add_button = document.getElementById("add_another_sound_file_menu_button");
